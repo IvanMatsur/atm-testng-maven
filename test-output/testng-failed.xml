@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Calculator unit testing]" parallel="methods">
+  <test name="CalculatorTest(failed)" parallel="methods">
+    <groups>
+      <run>
+        <include name="positive"/>
+        <include name="negative"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.epam.atm.testng.tests.CalculatorTest">
+        <methods>
+          <include name="testZeroValuePOW"/>
+          <include name="testSumWithZero"/>
+          <include name="testIsPositive"/>
+          <include name="afterMethod"/>
+          <include name="testBothZeroPOW"/>
+          <include name="testDivision"/>
+          <include name="testSubtraction"/>
+          <include name="testMultiplyByZero"/>
+          <include name="testDivisionWithZero"/>
+          <include name="testSubtractionWithZero"/>
+          <include name="testZeroIsNotNegative"/>
+          <include name="testDivisionByZero"/>
+          <include name="testIsNotNegative"/>
+          <include name="testIsNotPositive"/>
+          <include name="testZeroPOW"/>
+          <include name="testMultiply"/>
+          <include name="testZeroIsNotPositive"/>
+          <include name="testSQRTZero"/>
+          <include name="testSum" invocation-numbers="1 4"/>
+          <include name="beforeMethod"/>
+          <include name="testIsNegative"/>
+          <include name="testPOW"/>
+          <include name="testSQRT"/>
+          <include name="testMultiplyWithZero"/>
+        </methods>
+      </class> <!-- com.epam.atm.testng.tests.CalculatorTest -->
+    </classes>
+  </test> <!-- CalculatorTest(failed) -->
+</suite> <!-- Failed suite [Calculator unit testing] -->

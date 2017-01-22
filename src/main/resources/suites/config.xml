@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Calculator unit testing" parallel="methods" thread-count="2" >
+    <test name="CalculatorTest">
+        <groups>
+            <run>
+                <include name="positive"/>
+                <include name="negative"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.epam.atm.testng.tests.CalculatorTest"/>
+        </classes>
+    </test>
+</suite>

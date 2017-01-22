@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="5" failed="3" total="31" passed="23">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TmpSuite" duration-ms="0" started-at="2017-01-22T10:41:08Z" finished-at="2017-01-22T10:41:08Z">
+    <groups>
+    </groups>
+  </suite> <!-- TmpSuite -->
+  <suite name="Calculator unit testing" duration-ms="16041" started-at="2017-01-22T10:40:52Z" finished-at="2017-01-22T10:41:08Z">
+    <groups>
+      <group name="negative">
+        <method signature="CalculatorTest.testBothZeroPOW()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="testBothZeroPOW" class="com.epam.atm.testng.tests.CalculatorTest"/>
+        <method signature="CalculatorTest.testIsNotNegative()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="testIsNotNegative" class="com.epam.atm.testng.tests.CalculatorTest"/>
+        <method signature="CalculatorTest.testIsNotPositive()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="testIsNotPositive" class="com.epam.atm.testng.tests.CalculatorTest"/>
+        <method signature="CalculatorTest.testZeroIsNotNegative()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="testZeroIsNotNegative" class="com.epam.atm.testng.tests.CalculatorTest"/>
+        <method signature="CalculatorTest.testZeroIsNotPositive()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="testZeroIsNotPositive" class="com.epam.atm.testng.tests.CalculatorTest"/>
+      </group> <!-- negative -->
+      <group name="positive">
+        <method signature="CalculatorTest.testDivision()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="testDivision" class="com.epam.atm.testng.tests.CalculatorTest"/>
+        <method signature="CalculatorTest.testDivisionByZero()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="testDivisionByZero" class="com.epam.atm.testng.tests.CalculatorTest"/>
+        <method signature="CalculatorTest.testDivisionWithZero()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="testDivisionWithZero" class="com.epam.atm.testng.tests.CalculatorTest"/>
+        <method signature="CalculatorTest.testIsNegative()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="testIsNegative" class="com.epam.atm.testng.tests.CalculatorTest"/>
+        <method signature="CalculatorTest.testIsPositive()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="testIsPositive" class="com.epam.atm.testng.tests.CalculatorTest"/>
+        <method signature="CalculatorTest.testMultiply()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="testMultiply" class="com.epam.atm.testng.tests.CalculatorTest"/>
+        <method signature="CalculatorTest.testMultiplyByZero()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="testMultiplyByZero" class="com.epam.atm.testng.tests.CalculatorTest"/>
+        <method signature="CalculatorTest.testMultiplyWithZero()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="testMultiplyWithZero" class="com.epam.atm.testng.tests.CalculatorTest"/>
+        <method signature="CalculatorTest.testPOW()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="testPOW" class="com.epam.atm.testng.tests.CalculatorTest"/>
+        <method signature="CalculatorTest.testSQRT()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="testSQRT" class="com.epam.atm.testng.tests.CalculatorTest"/>
+        <method signature="CalculatorTest.testSQRTZero()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="testSQRTZero" class="com.epam.atm.testng.tests.CalculatorTest"/>
+        <method signature="CalculatorTest.testSubtraction()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="testSubtraction" class="com.epam.atm.testng.tests.CalculatorTest"/>
+        <method signature="CalculatorTest.testSubtractionWithZero()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="testSubtractionWithZero" class="com.epam.atm.testng.tests.CalculatorTest"/>
+        <method signature="CalculatorTest.testSum(double, double, double)[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="testSum" class="com.epam.atm.testng.tests.CalculatorTest"/>
+        <method signature="CalculatorTest.testSumWithZero()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="testSumWithZero" class="com.epam.atm.testng.tests.CalculatorTest"/>
+        <method signature="CalculatorTest.testZeroPOW()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="testZeroPOW" class="com.epam.atm.testng.tests.CalculatorTest"/>
+        <method signature="CalculatorTest.testZeroValuePOW()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="testZeroValuePOW" class="com.epam.atm.testng.tests.CalculatorTest"/>
+      </group> <!-- positive -->
+    </groups>
+    <test name="CalculatorTest" duration-ms="16041" started-at="2017-01-22T10:40:52Z" finished-at="2017-01-22T10:41:08Z">
+      <class name="com.epam.atm.testng.tests.CalculatorTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="beforeMethod" is-config="true" duration-ms="510" started-at="2017-01-22T13:40:52Z" finished-at="2017-01-22T13:40:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="beforeMethod" is-config="true" duration-ms="509" started-at="2017-01-22T13:40:52Z" finished-at="2017-01-22T13:40:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testDivision()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="testDivision" duration-ms="2" started-at="2017-01-22T13:40:53Z" description="result of division 14 by 5 is equal to 2.8" finished-at="2017-01-22T13:40:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivision -->
+        <test-method status="PASS" signature="testDivisionByZero()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="testDivisionByZero" duration-ms="1" started-at="2017-01-22T13:40:53Z" description="result of division by 0 throw Exception" finished-at="2017-01-22T13:40:53Z">
+          <exception class="java.lang.NumberFormatException">
+            <message>
+              <![CDATA[Attempt to divide by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NumberFormatException: Attempt to divide by zero
+	at com.epam.tat.module4.Calculator.div(Calculator.java:34)
+	at com.epam.atm.testng.tests.CalculatorTest.testDivisionByZero(CalculatorTest.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NumberFormatException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivisionByZero -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="afterMethod" is-config="true" duration-ms="499" started-at="2017-01-22T13:40:53Z" finished-at="2017-01-22T13:40:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="afterMethod" is-config="true" duration-ms="499" started-at="2017-01-22T13:40:53Z" finished-at="2017-01-22T13:40:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="beforeMethod" is-config="true" duration-ms="500" started-at="2017-01-22T13:40:53Z" finished-at="2017-01-22T13:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="beforeMethod" is-config="true" duration-ms="501" started-at="2017-01-22T13:40:53Z" finished-at="2017-01-22T13:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testDivisionWithZero()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="testDivisionWithZero" duration-ms="0" started-at="2017-01-22T13:40:54Z" description="result of division 0 by 18.56 is equal to 0" finished-at="2017-01-22T13:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivisionWithZero -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="afterMethod" is-config="true" duration-ms="500" started-at="2017-01-22T13:40:54Z" finished-at="2017-01-22T13:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testIsNegative()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="testIsNegative" duration-ms="0" started-at="2017-01-22T13:40:54Z" description="negative value is negative" finished-at="2017-01-22T13:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsNegative -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="afterMethod" is-config="true" duration-ms="500" started-at="2017-01-22T13:40:54Z" finished-at="2017-01-22T13:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="beforeMethod" is-config="true" duration-ms="501" started-at="2017-01-22T13:40:54Z" finished-at="2017-01-22T13:40:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="beforeMethod" is-config="true" duration-ms="501" started-at="2017-01-22T13:40:54Z" finished-at="2017-01-22T13:40:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="afterMethod" is-config="true" duration-ms="500" started-at="2017-01-22T13:40:55Z" finished-at="2017-01-22T13:40:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testIsPositive()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="testIsPositive" duration-ms="0" started-at="2017-01-22T13:40:55Z" description="positive value is positive" finished-at="2017-01-22T13:40:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsPositive -->
+        <test-method status="FAIL" signature="testMultiply()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="testMultiply" duration-ms="1" started-at="2017-01-22T13:40:55Z" description="result of multiply 0.21 by 8 is equal to 1.68" finished-at="2017-01-22T13:40:55Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [1.68] but found [1.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [1.68] but found [1.0]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:167)
+	at com.epam.atm.testng.tests.CalculatorTest.testMultiply(CalculatorTest.java:95)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiply -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="afterMethod" is-config="true" duration-ms="500" started-at="2017-01-22T13:40:55Z" finished-at="2017-01-22T13:40:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="beforeMethod" is-config="true" duration-ms="501" started-at="2017-01-22T13:40:55Z" finished-at="2017-01-22T13:40:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="beforeMethod" is-config="true" duration-ms="501" started-at="2017-01-22T13:40:55Z" finished-at="2017-01-22T13:40:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="afterMethod" is-config="true" duration-ms="500" started-at="2017-01-22T13:40:56Z" finished-at="2017-01-22T13:40:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testMultiplyByZero()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="testMultiplyByZero" duration-ms="0" started-at="2017-01-22T13:40:56Z" description="result of multiply 9.99 by 0 is equal to 0.0" finished-at="2017-01-22T13:40:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiplyByZero -->
+        <test-method status="PASS" signature="testMultiplyWithZero()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="testMultiplyWithZero" duration-ms="0" started-at="2017-01-22T13:40:56Z" description="result of multiply 0 by 12.56 is equal to 0.0" finished-at="2017-01-22T13:40:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiplyWithZero -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="afterMethod" is-config="true" duration-ms="500" started-at="2017-01-22T13:40:56Z" finished-at="2017-01-22T13:40:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="beforeMethod" is-config="true" duration-ms="503" started-at="2017-01-22T13:40:56Z" finished-at="2017-01-22T13:40:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="beforeMethod" is-config="true" duration-ms="500" started-at="2017-01-22T13:40:56Z" finished-at="2017-01-22T13:40:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSQRT()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="testSQRT" duration-ms="0" started-at="2017-01-22T13:40:57Z" description="sqrt of 4 is equal to 16" finished-at="2017-01-22T13:40:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSQRT -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="afterMethod" is-config="true" duration-ms="500" started-at="2017-01-22T13:40:57Z" finished-at="2017-01-22T13:40:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="afterMethod" is-config="true" duration-ms="500" started-at="2017-01-22T13:40:57Z" finished-at="2017-01-22T13:40:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testPOW()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="testPOW" duration-ms="0" started-at="2017-01-22T13:40:57Z" description="pow of 2 in 4 tier is equal to 16" finished-at="2017-01-22T13:40:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPOW -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="beforeMethod" is-config="true" duration-ms="501" started-at="2017-01-22T13:40:57Z" finished-at="2017-01-22T13:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="beforeMethod" is-config="true" duration-ms="500" started-at="2017-01-22T13:40:57Z" finished-at="2017-01-22T13:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="afterMethod" is-config="true" duration-ms="500" started-at="2017-01-22T13:40:58Z" finished-at="2017-01-22T13:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testSQRTZero()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="testSQRTZero" duration-ms="0" started-at="2017-01-22T13:40:58Z" description="sqrt of 0 is equal to 0" finished-at="2017-01-22T13:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSQRTZero -->
+        <test-method status="PASS" signature="testSubtraction()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="testSubtraction" duration-ms="1" started-at="2017-01-22T13:40:58Z" description="result of subtraction 11 from 13 is equal to 2" finished-at="2017-01-22T13:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubtraction -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="afterMethod" is-config="true" duration-ms="500" started-at="2017-01-22T13:40:58Z" finished-at="2017-01-22T13:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="beforeMethod" is-config="true" duration-ms="501" started-at="2017-01-22T13:40:58Z" finished-at="2017-01-22T13:40:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="beforeMethod" is-config="true" duration-ms="500" started-at="2017-01-22T13:40:58Z" finished-at="2017-01-22T13:40:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="afterMethod" is-config="true" duration-ms="501" started-at="2017-01-22T13:40:59Z" finished-at="2017-01-22T13:40:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testSubtractionWithZero()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="testSubtractionWithZero" duration-ms="0" started-at="2017-01-22T13:40:59Z" description="result of subtraction 0 from 2.22 is equal to 2.22" finished-at="2017-01-22T13:40:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubtractionWithZero -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="afterMethod" is-config="true" duration-ms="501" started-at="2017-01-22T13:40:59Z" finished-at="2017-01-22T13:40:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testSum(double, double, double)[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="testSum" duration-ms="0" started-at="2017-01-22T13:40:59Z" description="testing sum method" data-provider="dataToTestSum" finished-at="2017-01-22T13:40:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSum -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="beforeMethod" is-config="true" duration-ms="501" started-at="2017-01-22T13:40:59Z" finished-at="2017-01-22T13:41:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="beforeMethod" is-config="true" duration-ms="500" started-at="2017-01-22T13:40:59Z" finished-at="2017-01-22T13:41:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSumWithZero()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="testSumWithZero" duration-ms="0" started-at="2017-01-22T13:41:00Z" description="sum of 0 and 3.14 is equal to 3.14" finished-at="2017-01-22T13:41:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSumWithZero -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="afterMethod" is-config="true" duration-ms="500" started-at="2017-01-22T13:41:00Z" finished-at="2017-01-22T13:41:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="FAIL" signature="testSum(double, double, double)[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="testSum" duration-ms="0" started-at="2017-01-22T13:41:00Z" description="testing sum method" data-provider="dataToTestSum" finished-at="2017-01-22T13:41:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3.8]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [3.8] but found [3.8000000000000003]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [3.8] but found [3.8000000000000003]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:167)
+	at com.epam.atm.testng.tests.CalculatorTest.testSum(CalculatorTest.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSum -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="afterMethod" is-config="true" duration-ms="501" started-at="2017-01-22T13:41:00Z" finished-at="2017-01-22T13:41:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="beforeMethod" is-config="true" duration-ms="501" started-at="2017-01-22T13:41:00Z" finished-at="2017-01-22T13:41:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="beforeMethod" is-config="true" duration-ms="500" started-at="2017-01-22T13:41:00Z" finished-at="2017-01-22T13:41:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="afterMethod" is-config="true" duration-ms="500" started-at="2017-01-22T13:41:01Z" finished-at="2017-01-22T13:41:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testZeroPOW()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="testZeroPOW" duration-ms="0" started-at="2017-01-22T13:41:01Z" description="pow of 2 in 0 tier is equal to 1" finished-at="2017-01-22T13:41:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testZeroPOW -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="afterMethod" is-config="true" duration-ms="500" started-at="2017-01-22T13:41:01Z" finished-at="2017-01-22T13:41:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testSum(double, double, double)[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="testSum" duration-ms="0" started-at="2017-01-22T13:41:01Z" description="testing sum method" data-provider="dataToTestSum" finished-at="2017-01-22T13:41:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0.234]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3.467]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3.701]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSum -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="beforeMethod" is-config="true" duration-ms="501" started-at="2017-01-22T13:41:01Z" finished-at="2017-01-22T13:41:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="beforeMethod" is-config="true" duration-ms="500" started-at="2017-01-22T13:41:01Z" finished-at="2017-01-22T13:41:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="afterMethod" is-config="true" duration-ms="500" started-at="2017-01-22T13:41:02Z" finished-at="2017-01-22T13:41:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testZeroValuePOW()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="testZeroValuePOW" duration-ms="0" started-at="2017-01-22T13:41:02Z" description="pow of 0 in 3 tier is equal to 1" finished-at="2017-01-22T13:41:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testZeroValuePOW -->
+        <test-method status="PASS" signature="testSum(double, double, double)[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="testSum" duration-ms="0" started-at="2017-01-22T13:41:02Z" description="testing sum method" data-provider="dataToTestSum" finished-at="2017-01-22T13:41:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-0.34]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-0.75]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1.09]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSum -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="afterMethod" is-config="true" duration-ms="500" started-at="2017-01-22T13:41:02Z" finished-at="2017-01-22T13:41:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="beforeMethod" is-config="true" duration-ms="500" started-at="2017-01-22T13:41:02Z" finished-at="2017-01-22T13:41:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="testSum(double, double, double)[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="testSum" duration-ms="0" started-at="2017-01-22T13:41:03Z" description="testing sum method" data-provider="dataToTestSum" finished-at="2017-01-22T13:41:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-0.89]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.65]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.76]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [0.76] but found [0.7599999999999999]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [0.76] but found [0.7599999999999999]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:167)
+	at com.epam.atm.testng.tests.CalculatorTest.testSum(CalculatorTest.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSum -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="afterMethod" is-config="true" duration-ms="500" started-at="2017-01-22T13:41:03Z" finished-at="2017-01-22T13:41:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="beforeMethod" is-config="true" duration-ms="500" started-at="2017-01-22T13:41:03Z" finished-at="2017-01-22T13:41:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSum(double, double, double)[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="testSum" duration-ms="0" started-at="2017-01-22T13:41:04Z" description="testing sum method" data-provider="dataToTestSum" finished-at="2017-01-22T13:41:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4.83]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-15.21]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-10.38]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSum -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="afterMethod" is-config="true" duration-ms="500" started-at="2017-01-22T13:41:04Z" finished-at="2017-01-22T13:41:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="beforeMethod" is-config="true" duration-ms="500" started-at="2017-01-22T13:41:04Z" finished-at="2017-01-22T13:41:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="afterMethod" is-config="true" duration-ms="500" started-at="2017-01-22T13:41:05Z" finished-at="2017-01-22T13:41:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testSum(double, double, double)[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="testSum" duration-ms="0" started-at="2017-01-22T13:41:05Z" description="testing sum method" data-provider="dataToTestSum" finished-at="2017-01-22T13:41:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3.48]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3.48]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSum -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="beforeMethod" is-config="true" duration-ms="500" started-at="2017-01-22T13:41:05Z" finished-at="2017-01-22T13:41:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="afterMethod" is-config="true" duration-ms="500" started-at="2017-01-22T13:41:06Z" finished-at="2017-01-22T13:41:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testSum(double, double, double)[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="testSum" duration-ms="0" started-at="2017-01-22T13:41:06Z" description="testing sum method" data-provider="dataToTestSum" finished-at="2017-01-22T13:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-234.9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-234.9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSum -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="beforeMethod" is-config="true" duration-ms="500" started-at="2017-01-22T13:41:06Z" finished-at="2017-01-22T13:41:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="afterMethod" is-config="true" duration-ms="500" started-at="2017-01-22T13:41:07Z" finished-at="2017-01-22T13:41:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testSum(double, double, double)[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="testSum" duration-ms="0" started-at="2017-01-22T13:41:07Z" description="testing sum method" data-provider="dataToTestSum" finished-at="2017-01-22T13:41:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[67.86]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[67.86]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSum -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="beforeMethod" is-config="true" duration-ms="500" started-at="2017-01-22T13:41:07Z" finished-at="2017-01-22T13:41:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="afterMethod" is-config="true" duration-ms="500" started-at="2017-01-22T13:41:08Z" finished-at="2017-01-22T13:41:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testSum(double, double, double)[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="testSum" duration-ms="0" started-at="2017-01-22T13:41:08Z" description="testing sum method" data-provider="dataToTestSum" finished-at="2017-01-22T13:41:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-45.37]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-45.37]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSum -->
+        <test-method status="SKIP" signature="testIsNotNegative()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="testIsNotNegative" duration-ms="0" depends-on-groups="positive" started-at="2017-01-22T13:41:08Z" description="positive value is not negative" finished-at="2017-01-22T13:41:08Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method CalculatorTest.testIsNotNegative()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38] depends on not successfully finished methods in group "positive"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method CalculatorTest.testIsNotNegative()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38] depends on not successfully finished methods in group "positive"
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsNotNegative -->
+        <test-method status="SKIP" signature="testBothZeroPOW()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="testBothZeroPOW" duration-ms="0" depends-on-groups="positive" started-at="2017-01-22T13:41:08Z" description="pow of 0 in 0 tier is not equal to 0" finished-at="2017-01-22T13:41:08Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method CalculatorTest.testBothZeroPOW()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38] depends on not successfully finished methods in group "positive"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method CalculatorTest.testBothZeroPOW()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38] depends on not successfully finished methods in group "positive"
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBothZeroPOW -->
+        <test-method status="SKIP" signature="testIsNotPositive()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="testIsNotPositive" duration-ms="0" depends-on-groups="positive" started-at="2017-01-22T13:41:08Z" description="negative value is not positive" finished-at="2017-01-22T13:41:08Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method CalculatorTest.testIsNotPositive()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38] depends on not successfully finished methods in group "positive"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method CalculatorTest.testIsNotPositive()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38] depends on not successfully finished methods in group "positive"
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsNotPositive -->
+        <test-method status="SKIP" signature="testZeroIsNotNegative()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="testZeroIsNotNegative" duration-ms="0" depends-on-groups="positive" started-at="2017-01-22T13:41:08Z" description="zero is not negative" finished-at="2017-01-22T13:41:08Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method CalculatorTest.testZeroIsNotNegative()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38] depends on not successfully finished methods in group "positive"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method CalculatorTest.testZeroIsNotNegative()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38] depends on not successfully finished methods in group "positive"
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testZeroIsNotNegative -->
+        <test-method status="SKIP" signature="testZeroIsNotPositive()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38]" name="testZeroIsNotPositive" duration-ms="0" depends-on-groups="positive" started-at="2017-01-22T13:41:08Z" description="zero value is not positive" finished-at="2017-01-22T13:41:08Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method CalculatorTest.testZeroIsNotPositive()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38] depends on not successfully finished methods in group "positive"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method CalculatorTest.testZeroIsNotPositive()[pri:0, instance:com.epam.atm.testng.tests.CalculatorTest@68fb2c38] depends on not successfully finished methods in group "positive"
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testZeroIsNotPositive -->
+      </class> <!-- com.epam.atm.testng.tests.CalculatorTest -->
+    </test> <!-- CalculatorTest -->
+  </suite> <!-- Calculator unit testing -->
+</testng-results>
